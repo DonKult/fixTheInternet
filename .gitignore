@@ -1,0 +1,6 @@
+README.html
+manifest.json
+background.in/*.js
+background.in/*.old
+*.xpi
+.fuse_hidden*

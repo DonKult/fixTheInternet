@@ -1,0 +1,29 @@
+#!/bin/sh
+set -e
+
+escape_shell() {
+	echo "$@" | sed -e "s#'#'\"'\"'#g"
+}
+
+case "$1" in
+README)
+	TMPFILE="$(mktemp)"
+	test -n "$TMPFILE" || exit 1
+	trap "cd /; rm '$(escape_shell "$TMPFILE")';" 0 HUP INT QUIT ILL ABRT FPE SEGV PIPE TERM
+	cat <<EOF > "${TMPFILE}"
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>fixTheInternet: README</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head><body>
+EOF
+	pandoc --to=html5 README.md >> "${TMPFILE}"
+	echo '</body></html>' >> "${TMPFILE}"
+	cp "${TMPFILE}" README.html
+	;;
+*)
+	echo >&1 'Command not implemented';;
+esac

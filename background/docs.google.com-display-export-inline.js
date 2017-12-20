@@ -13,7 +13,11 @@ function dispositionInlineForGoogleDocuments(e) {
 }
 browser.webRequest.onHeadersReceived.addListener(
 	dispositionInlineForGoogleDocuments,
-	{urls: ['https://docs.google.com/document/export?id=*'] },
+	{urls: [
+		'https://docs.google.com/document/export?id=*',
+		'https://docs.google.com/presentation/d/*' + '/export/*?id=*',
+		'https://docs.google.com/spreadsheets/d/*' + '/export?id=*'
+	], types: ['main_frame'] },
 	["blocking", "responseHeaders"]
 );
 })();

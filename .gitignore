@@ -4,3 +4,4 @@ background.in/*.js
 background.in/*.old
 *.xpi
 .fuse_hidden*
+.gitdescribe

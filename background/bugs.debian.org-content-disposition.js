@@ -8,6 +8,8 @@ function debianReplaceContentType(e) {
 			return;
 		if (o.value.startsWith('text/x-diff'))
 			o.value = 'text/plain' + o.value.substr('text/x-diff'.length);
+		else if (o.value.startsWith('text/x-patch'))
+			o.value = 'text/plain' + o.value.substr('text/x-patch'.length);
 		else if (o.value.startsWith('application/')) {
 			if (o.value === 'application/gzip') {
 				return;

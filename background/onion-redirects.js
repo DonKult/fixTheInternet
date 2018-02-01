@@ -39,6 +39,10 @@ const onionRedirects = {
 	'blockchain.info': 'https://blockchainbdgpzk.onion/',
 	// text in the logo of the page
 	'www.deepdotweb.com': 'http://deepdot35wvmeyd5.onion/',
+	// The New York Times: https://open.nytimes.com/https-open-nytimes-com-the-new-york-times-as-a-tor-onion-service-e0d0b67b7482
+	'nytimes.com': 'https://www.nytimes3xbfgragh.onion',
+	'www.nytimes.com': 'https://www.nytimes3xbfgragh.onion',
+	'open.nytimes.com': 'https://open.nytimes3xbfgragh.onion',
 };
 function redirectOnion(e) {
 	const parts = e.url.split('/', 4);

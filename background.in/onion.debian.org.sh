@@ -42,7 +42,7 @@ url_parse_riseup_txt() {
 
 cat >"${FILE}" <<EOF
 "use strict";
-/* redirect all domains listed on $DOMAIN to their onion addresses */
+/* redirect all domains listed on $URL to their onion addresses */
 (function() {
 const onionRedirects = {
 $("$URL_PARSE" "$URL")

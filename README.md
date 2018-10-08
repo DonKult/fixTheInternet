@@ -10,8 +10,21 @@ This extension collects small snippets of background scripts to solve specific
 internet. The problem of modifying websites to my liking is handled by the
 [dotPageMod](https://github.com/DonKult/dotPageMod) extension instead.
 
-As is it is likely not at all useful for anyone but me, but feel free to
-grab what you need for yourself.
+It is likely not at all useful for anyone but me,
+still feel free to grab what you need for yourself.
+
+## Features
+
+* redirect known hardcoded clearnet sites to hidden (aka onion) services
+* redirect generator for onion services as listed by Debian, Tor Project and Riseup
+* inline Content-Disposition for patches on the bugtracker for Debian and Mozilla
+* inline Content-Disposition for exports (PDF and otherwise) of Google documents
+* fake a console-browser to sidestep Youtubes JavaScript interface
+* use old.reddit.com for all reddit-browsing
+* skip Mozillas clicktracking used on addons.m.o
+* boilerplate script for use as poor man's https-everywhere
+
+See the individual background scripts for implementation details.
 
 ## Installation
 
@@ -41,7 +54,7 @@ is even visited (like rewriting URIs and such) and "reloading" could end in [!FU
 
 The extension is MIT (Expat) licensed.
 
-	Copyright © 2017 David Kalnischkies <david@kalnischkies.de>
+	Copyright © 2017-2018 David Kalnischkies <david@kalnischkies.de>
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy of
 	this software and associated documentation files (the "Software"), to deal in

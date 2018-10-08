@@ -16,6 +16,6 @@ dynamic_backgrounds:
 	find background.in -name '*.sh' -exec sh '{}' \;
 
 distclean clean:
-	rm -f README.html manifest.json backround.in/*.js backround.in/*.old fixtheinternet.xpi
+	rm -f README.html manifest.json background.in/*.js background.in/*.old fixtheinternet.xpi
 
 .PHONY: dynamic_backgrounds

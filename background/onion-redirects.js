@@ -46,8 +46,10 @@ const onionRedirects = {
 };
 function redirectOnion(e) {
 	const parts = e.url.split('/', 4);
-	if (onionRedirects.hasOwnProperty(parts[2]))
-		return {redirectUrl: onionRedirects[parts[2]] + e.url.substr(e.url.indexOf('/', 8) + 1) };
+	if (onionRedirects.hasOwnProperty(parts[2])) {
+		const onion = onionRedirects[parts[2]];
+		return {redirectUrl: onion + e.url.substr(e.url.indexOf('/', 8) + (onion.endsWith('/') ? 1 : 0)) };
+	}
 }
 const watchedUrls = Object.keys(onionRedirects).reduce((arr, host) => arr.concat('*://' + host + '/*'), []);
 browser.webRequest.onBeforeRequest.addListener(

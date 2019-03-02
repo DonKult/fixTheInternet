@@ -47,6 +47,9 @@ const onionRedirects = {
 	'taz.de': 'http://ibpj4qv7mufde33w.onion',
 	'www.taz.de': 'http://ibpj4qv7mufde33w.onion',
 	'informant.taz.de': 'http://mprt35sjunnxfa76.onion',
+	// Invidious: in the README of the github project: https://github.com/omarroth/invidious
+	'invidio.us': 'http://axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion',
+	'kgg2m7yk5aybusll.onion': 'http://axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion',
 };
 function redirectOnion(e) {
 	const parts = e.url.split('/', 4);

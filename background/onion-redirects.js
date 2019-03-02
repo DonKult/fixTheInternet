@@ -43,6 +43,10 @@ const onionRedirects = {
 	'nytimes.com': 'https://www.nytimes3xbfgragh.onion',
 	'www.nytimes.com': 'https://www.nytimes3xbfgragh.onion',
 	'open.nytimes.com': 'https://open.nytimes3xbfgragh.onion',
+	// taz: mentioned on https://informant.taz.de/
+	'taz.de': 'http://ibpj4qv7mufde33w.onion',
+	'www.taz.de': 'http://ibpj4qv7mufde33w.onion',
+	'informant.taz.de': 'http://mprt35sjunnxfa76.onion',
 };
 function redirectOnion(e) {
 	const parts = e.url.split('/', 4);

@@ -6,6 +6,7 @@ const onionRedirects = {
 	// facebook
 	'facebook.com': 'https://facebookcorewwwi.onion/',
 	'www.facebook.com': 'https://facebookcorewwwi.onion/',
+	'mbasic.facebook.com': 'https://mbasic.facebookcorewwwi.onion/',
 	'developers.facebook.com': 'https://developers.facebookcorewwwi.onion/',
 	// DuckDuckGo: https://duck.co/blog/post/16/friends-newsletter-40
 	'duckduckgo.com': 'https://3g2upl4pq6kufc4m.onion/',

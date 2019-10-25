@@ -62,6 +62,8 @@ const onionRedirects = {
 	'manual.uberspaceyukm42r.onion': 'http://manual.ubrspc3z5xuzh2iss4xuacpjdqj24orwnuye5hk23cpykd3mcujvygqd.onion',
 	'lab.uberspace.de': 'http://lab.ubrspc3z5xuzh2iss4xuacpjdqj24orwnuye5hk23cpykd3mcujvygqd.onion',
 	'lab.uberspaceyukm42r.onion': 'http://lab.ubrspc3z5xuzh2iss4xuacpjdqj24orwnuye5hk23cpykd3mcujvygqd.onion',
+	// Nitter: wiki of the github project: https://github.com/zedeus/nitter/wiki/Instances
+	'nitter.net': 'http://3nzoldnxplag42gqjs23xvghtzf6t6yzssrtytnntc6ppc7xxuoneoad.onion',
 };
 function redirectOnion(e) {
 	const parts = e.url.split('/', 4);

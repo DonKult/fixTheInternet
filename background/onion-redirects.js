@@ -85,6 +85,7 @@ function undoTor2Web(e) {
 const urlsTor2Web = [
 	'tor2web.org',
 	'tor2web.com',
+	'tor2web.xyz',
 	'tor2web.fi',
 	'tor2web.blutmagie.de',
 	'onion.to',

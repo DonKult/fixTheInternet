@@ -51,6 +51,17 @@ const onionRedirects = {
 	// Invidious: in the README of the github project: https://github.com/omarroth/invidious
 	'invidio.us': 'http://axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion',
 	'kgg2m7yk5aybusll.onion': 'http://axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion',
+	// Uberspace: https://blog.uberspace.de/toasting/
+	'uber.space': 'http://ahcbagldgzdpa74g2mh74fvk5zjzpfjbvgqin6g3mfuu66tynv2gkiid.onion',
+	'onastroidst6krpn.onion': 'http://ahcbagldgzdpa74g2mh74fvk5zjzpfjbvgqin6g3mfuu66tynv2gkiid.onion',
+	'uberspace.de': 'http://ubrspc3z5xuzh2iss4xuacpjdqj24orwnuye5hk23cpykd3mcujvygqd.onion',
+	'uberspaceyukm42r.onion': 'http://ubrspc3z5xuzh2iss4xuacpjdqj24orwnuye5hk23cpykd3mcujvygqd.onion',
+	'blog.uberspace.de': 'http://blog.ubrspc3z5xuzh2iss4xuacpjdqj24orwnuye5hk23cpykd3mcujvygqd.onion',
+	'blog.uberspaceyukm42r.onion': 'http://blog.ubrspc3z5xuzh2iss4xuacpjdqj24orwnuye5hk23cpykd3mcujvygqd.onion',
+	'manual.uberspace.de': 'http://manual.ubrspc3z5xuzh2iss4xuacpjdqj24orwnuye5hk23cpykd3mcujvygqd.onion',
+	'manual.uberspaceyukm42r.onion': 'http://manual.ubrspc3z5xuzh2iss4xuacpjdqj24orwnuye5hk23cpykd3mcujvygqd.onion',
+	'lab.uberspace.de': 'http://lab.ubrspc3z5xuzh2iss4xuacpjdqj24orwnuye5hk23cpykd3mcujvygqd.onion',
+	'lab.uberspaceyukm42r.onion': 'http://lab.ubrspc3z5xuzh2iss4xuacpjdqj24orwnuye5hk23cpykd3mcujvygqd.onion',
 };
 function redirectOnion(e) {
 	const parts = e.url.split('/', 4);

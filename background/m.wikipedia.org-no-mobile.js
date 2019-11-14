@@ -7,8 +7,8 @@
 (function() {
 function redirectWikipedia(e) {
 	const parts = e.url.split('/', 4);
-	if (onionRedirects.hasOwnProperty(parts[2]) === false)
-		return;
+	if (parts.length < 4)
+		return {};
 	const dots = parts[2].split('.', 2);
 	return {redirectUrl: 'https://' + dots[0] + '.wikipedia.org/' + e.url.substr(e.url.indexOf('/', 8) + 1) };
 }

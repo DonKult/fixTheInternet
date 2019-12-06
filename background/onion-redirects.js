@@ -15,11 +15,9 @@ const onionRedirects = {
 	// ahmia.fi: footer of each site
 	'ahmia.fi': 'http://msydqstlz2kzerdg.onion/',
 	'www.ahmia.fi': 'http://msydqstlz2kzerdg.onion/',
-	// piratebay: footer of each site & https://thepiratebay.se/blog/238
-	'thepiratebay.se': 'http://uj3wazyk5u4hnvtk.onion/',
-	'www.thepiratebay.se': 'http://uj3wazyk5u4hnvtk.onion/',
-	'thepiratebay.org': 'http://uj3wazyk5u4hnvtk.onion/',
-	'www.thepiratebay.org': 'http://uj3wazyk5u4hnvtk.onion/',
+	// piratebay: footer of each site
+	'thepiratebay.org': 'http://piratebayztemzmv.onion/',
+	'www.thepiratebay.org': 'http://piratebayztemzmv.onion/',
 	// Martins Schmierzettel: https://blog.mdosch.de/2017/05/29/mein-blog-ist-nun-als-hidden-service-ueber-tor-verfuegbar/
 	'blog.mdosch.de': 'http://blog.skt4odto3ycrngsv.onion/',
 	// ProtonMail: https://protonmail.com/tor

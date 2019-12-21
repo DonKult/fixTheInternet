@@ -23,8 +23,9 @@ const onionRedirects = {
 	// ProtonMail: https://protonmail.com/tor
 	'protonmail.com': 'https://protonirockerxow.onion/',
 	// Keybase.io: https://keybase.io/docs/command_line/tor
-	'keybase.io': 'http://fncuwbiisyh6ak3i.onion/',
-	'www.keybase.io': 'http://fncuwbiisyh6ak3i.onion/',
+	'keybase.io': 'http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion',
+	'www.keybase.io': 'http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion',
+	'fncuwbiisyh6ak3i.onion': 'http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion',
 	// ProPublica: https://www.propublica.org/nerds/a-more-secure-and-anonymous-propublica-using-tor-hidden-services
 	'propublica.org': 'http://www.propub3r6espa33w.onion/',
 	'www.propublica.org': 'http://www.propub3r6espa33w.onion/',

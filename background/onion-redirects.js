@@ -62,6 +62,8 @@ const onionRedirects = {
 	'lab.uberspaceyukm42r.onion': 'http://lab.ubrspc3z5xuzh2iss4xuacpjdqj24orwnuye5hk23cpykd3mcujvygqd.onion',
 	// Nitter: wiki of the github project: https://github.com/zedeus/nitter/wiki/Instances
 	'nitter.net': 'http://3nzoldnxplag42gqjs23xvghtzf6t6yzssrtytnntc6ppc7xxuoneoad.onion',
+	// Pornhub Launches Tor Mirror Site…: https://www.pornhub.com/press/show?id=1911
+	'pornhub.com': 'http://pornhubthbh7ap3u.onion',
 };
 function redirectOnion(e) {
 	const parts = e.url.split('/', 4);

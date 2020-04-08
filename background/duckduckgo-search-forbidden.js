@@ -3,7 +3,7 @@
 (function(){
 function rewriteOrigin(e) {
 	for (var header of e.requestHeaders) {
-		if (header.name.toLowerCase() === "origin" && header.value === "https://3g2upl4pq6kufc4m.onion") {
+		if (header.name.toLowerCase() === "origin") {
 			header.value = "https://duckduckgo.com";
 			break;
 		}

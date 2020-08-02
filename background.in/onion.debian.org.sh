@@ -37,7 +37,7 @@ url_parse_weasel() {
 }
 url_parse_riseup_txt() {
 	GET "$1" | \
-		sed -n 's#^\([^: ]\+\):\?\s\+\([^.]\+\.onion\) (port.*$#	"\1": "http://\2/",#p'
+		sed -n 's#^\([^: ]\+\):\?\s\+\(v3:\?\s\+\)\?\([^.]\+\.onion\) (port.*$#	"\1": "http://\3/",#p'
 }
 
 cat >"${FILE}" <<EOF
